@@ -1,0 +1,35 @@
+@startuml
+skinparam linetype ortho
+skinparam componentStyle uml2
+
+!define main_color #5B9BD5
+
+skinparam sequence {
+    LifeLineBorderColor main_color
+    LifeLineBackgroundColor #A9DCDF
+}
+
+skinparam participant {
+    backgroundColor main_color
+    borderColor black
+    FontColor white
+    arrowColor main_color
+}
+
+skinparam database {
+    backgroundColor 2F5475
+    borderColor black
+    FontColor main_color
+}
+
+skinparam actor {
+    backgroundColor FFBF00
+    borderColor main_color
+    fontColor main_color
+}
+
+skinparam arrow {
+    color main_color
+    fontColor main_color
+}
+@enduml
