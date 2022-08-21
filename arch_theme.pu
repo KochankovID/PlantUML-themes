@@ -1,0 +1,37 @@
+@startuml
+skinparam linetype ortho
+skinparam componentStyle uml2
+
+skinparam component {
+  backgroundColor 5B9BD5
+  borderColor black
+  FontColor white
+  arrowColor 5B9BD5
+  Margine 30
+}
+
+skinparam database {
+  backgroundColor 2F5475
+  borderColor black
+  FontColor white
+}
+
+skinparam rectangle {
+  borderColor 5B9BD5
+}
+
+skinparam actor {
+  backgroundColor FFBF00
+  borderColor 5B9BD5
+  fontColor 5B9BD5
+}
+
+skinparam interface {
+  backgroundColor ED7D32
+  fontColor 5B9BD5
+}
+
+skinparam arrow {
+    fontColor 5B9BD5
+}
+@enduml
