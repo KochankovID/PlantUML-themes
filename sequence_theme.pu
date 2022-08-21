@@ -4,6 +4,8 @@ skinparam componentStyle uml2
 
 !define main_color #5B9BD5
 
+skinparam sequenceBoxBorderColor main_color
+
 skinparam sequence {
     LifeLineBorderColor main_color
     LifeLineBackgroundColor #A9DCDF
