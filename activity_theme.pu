@@ -17,4 +17,8 @@ skinparam activity {
         fontColor main_color
     }
 }
+
+skinparam partition {
+    BorderColor main_color
+}
 @enduml
