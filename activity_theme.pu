@@ -1,0 +1,20 @@
+@startuml
+!define main_color #5B9BD5
+
+skinparam activity {
+    BackgroundColor main_color
+    BorderColor black
+    FontColor white
+
+    diamond {
+        BackgroundColor #A9DCDF
+        BorderColor black
+        FontColor black
+    }
+
+    arrow {
+        color main_color
+        fontColor main_color
+    }
+}
+@enduml
